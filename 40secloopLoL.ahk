@@ -2,7 +2,7 @@
 PathIni = C:\Users\%a_username%\AppData\Roaming\IniPath.ini
 if (A_Hour>=16) And (A_Hour<=22)
     LoopFunc(50000,PathIni)
-else if (A_Hour>=23) And (A_Hour<=2)
+else if (A_Hour>=23) or (A_Hour<=2)
     LoopFunc(40000,PathIni)
 else if (A_Hour>=3) And (A_Hour<=10)
     LoopFunc(45000,PathIni)
